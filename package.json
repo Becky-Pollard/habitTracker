@@ -1,26 +1,26 @@
 {
-  "name": "hackeryou-fullstack-project",
+  "name": "habittracker",
   "version": "1.0.0",
-  "description": "HackerYou Fullstack Masterclass Project",
+  "description": "Juno College Fullstack Masterclass Project",
   "main": "index.js",
   "scripts": {
-    "init": "node scripts/init.js",
     "test": "react-scripts test",
     "start:server": "nodemon api/server.js --ignore src/ --ignore build/ --ignore public/",
     "start:client": "react-scripts start",
-    "build:client": "react-scripts build"
+    "build:client": "react-scripts build",
+    "git": "node scripts/git.js BeckyPollard project-repo"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HackerYou/con-ed-full-stack.git"
+    "url": "git+https://github.com/BeckyPollard/habitTracker.git"
   },
   "keywords": [],
   "author": "Becky Pollard",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/HackerYou/con-ed-full-stack/issues"
+    "url": "https://https://github.com/BeckyPollard/habitTracker"
   },
-  "homepage": "https://github.com/HackerYou/con-ed-full-stack#readme",
+  "homepage": "https://github.com/BeckyPollard/habitTracker#readme",
   "dependencies": {
     "eslint": "^6.6.0",
     "express": "^4.17.1",
